@@ -40,31 +40,34 @@ public class LandingPage extends TestBase{
 	public void navBarClick() throws InterruptedException {
 		
 		action.moveToElement(NavProducts);
+		NavProducts.click();
 		Thread.sleep(2000);
-	
 		
-		driver.navigate().back();
+		
+		//driver.navigate().back();
 		
 		wait.until(ExpectedConditions.visibilityOf(NavSolutions));
 		action.moveToElement(NavSolutions);
+		NavSolutions.click();
 		Thread.sleep(2000);
 		
-		
-		driver.navigate().back();
+		//driver.navigate().back();
 		
 		wait.until(ExpectedConditions.visibilityOf(NavCompany));
 		action.moveToElement(NavCompany);
-		Thread.sleep(2000);
 		NavCompany.click();
+		Thread.sleep(2000);
+		
 		
 		driver.navigate().back();
 		
 		wait.until(ExpectedConditions.visibilityOf(NavBlog));
 		action.moveToElement(NavBlog);
+		NavBlog.click();
 		Thread.sleep(2000);
 	
 		
-		driver.navigate().back();
+		//driver.navigate().back();
 		
 		wait.until(ExpectedConditions.visibilityOf(NavResources));
 		action.moveToElement(NavResources);
@@ -73,5 +76,6 @@ public class LandingPage extends TestBase{
 		NavResources.click();
 		
 		Thread.sleep(2000);
+		driver.navigate().back();
 	}
 }
