@@ -41,14 +41,14 @@ public class LandingPage extends TestBase{
 		
 		action.moveToElement(NavProducts);
 		Thread.sleep(2000);
-		NavProducts.click();
+	
 		
 		driver.navigate().back();
 		
 		wait.until(ExpectedConditions.visibilityOf(NavSolutions));
 		action.moveToElement(NavSolutions);
 		Thread.sleep(2000);
-		NavSolutions.click();
+		
 		
 		driver.navigate().back();
 		
@@ -62,7 +62,7 @@ public class LandingPage extends TestBase{
 		wait.until(ExpectedConditions.visibilityOf(NavBlog));
 		action.moveToElement(NavBlog);
 		Thread.sleep(2000);
-		NavBlog.click();
+	
 		
 		driver.navigate().back();
 		
