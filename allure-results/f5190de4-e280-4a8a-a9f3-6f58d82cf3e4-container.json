@@ -1,0 +1,1 @@
+{"uuid":"f5190de4-e280-4a8a-a9f3-6f58d82cf3e4","name":"tests.InteractiveTest.setUp","children":["ef1a9f6a-a231-443f-bfbf-137c23009685"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1699565643783,"stop":1699565650829}],"afters":[],"start":1699565643783,"stop":1699565650829}
